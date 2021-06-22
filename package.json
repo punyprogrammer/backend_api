@@ -1,0 +1,23 @@
+{
+  "name": "devcamper_backend_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "start win": "set NODE_ENV=production&&node server",
+    "dev": "nodemon server"
+  },
+  "author": "Amardeep Ganguly",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14",
+    "morgan": "^1.10.0",
+    "node-geocoder": "^3.27.0",
+    "nodemon": "^2.0.7",
+    "slugify": "^1.5.3"
+  }
+}
